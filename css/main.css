@@ -1,5 +1,6 @@
 #game-area{
     background: url("../assets/background.png");
+    pointer-events: all;
 }
 .interactable:hover{
     filter: drop-shadow(1px 1px 0px white);
@@ -9,6 +10,9 @@
 }
 .screenshake{
     animation: screenshake 0.1s
+}
+body{
+    pointer-events: none;
 }
 
 @keyframes screenshake{
