@@ -1,0 +1,19 @@
+#game-area{
+    background: url("../assets/background.png");
+}
+.interactable:hover{
+    filter: drop-shadow(1px 1px 0px white);
+}
+[follow|="true"]{
+    filter: drop-shadow(1px 1px 0px white);
+}
+.screenshake{
+    animation: screenshake 0.1s
+}
+
+@keyframes screenshake{
+    0%{transform: translate(-5px,5px);}
+    25%{transform: translate(5px,-5px);}
+    75%{transform: translate(5px,5px);}
+    100%{transform: translate(-5px,-5px);}
+}
