@@ -1,0 +1,5 @@
+New features to implement:
+
+Bagel objects
+Donuts
+Rats
